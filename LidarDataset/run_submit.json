@@ -1,0 +1,22 @@
+{
+  "run_name": "LiDAR Classification Demo",
+  "tasks": [
+    {
+      "task_key": "ingest_and_train",
+      "existing_cluster_id": "<YOUR_CLUSTER_ID>",
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/<YOUR_EMAIL>/2026-04-13-Lidar/01_ingest_and_train",
+        "source": "WORKSPACE"
+      }
+    },
+    {
+      "task_key": "visualize",
+      "depends_on": [{"task_key": "ingest_and_train"}],
+      "existing_cluster_id": "<YOUR_CLUSTER_ID>",
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/<YOUR_EMAIL>/2026-04-13-Lidar/02_visualize",
+        "source": "WORKSPACE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "run_name": "LiDAR U-Next Multi-GPU",
+  "tasks": [
+    {
+      "task_key": "unext_multigpu",
+      "existing_cluster_id": "<YOUR_CLUSTER_ID>",
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/<YOUR_EMAIL>/2026-04-13-Lidar/04_unext_multigpu",
+        "source": "WORKSPACE"
+      }
+    }
+  ]
+}

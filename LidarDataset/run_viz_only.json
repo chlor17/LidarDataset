@@ -1,0 +1,13 @@
+{
+  "run_name": "LiDAR Visualize",
+  "tasks": [
+    {
+      "task_key": "visualize",
+      "existing_cluster_id": "<YOUR_CLUSTER_ID>",
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/<YOUR_EMAIL>/2026-04-13-Lidar/02_visualize",
+        "source": "WORKSPACE"
+      }
+    }
+  ]
+}

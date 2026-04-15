@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# LAS binary tiles (large binary files — store in UC Volume or cloud storage)
+tiles/*.las
+
+# Local secrets / credentials
+.env
+*.token
+databrickscfg
+
+# macOS
+.DS_Store
